@@ -1,0 +1,104 @@
+.weather-bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebf0f4;
+  display: flex;
+  padding: 10px;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.forecast {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.stateInput {
+  outline: none;
+  background-color: transparent;
+  border-style: none;
+  width: 480px;
+  height: 30px;
+  outline: none;
+  background-color: #ededed;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.select-state-heading {
+  color: #646464;
+  margin: 10px;
+}
+.weather-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-display {
+  background-color: #a1e0ff;
+  height: 212px;
+  width: 800px;
+
+  border-radius: 23px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.heading {
+}
+
+.text {
+  font-size: 70px;
+  margin-top: 0px;
+}
+
+.vl {
+  border-left: 4px solid #ffffff;
+  height: 100px;
+}
+
+.weather-heading {
+}
+@media screen and (max-width: 768px) {
+  .weather-container {
+  }
+  .weather-heading {
+  }
+  .weather-bg {
+  }
+  .select-state-heading {
+  }
+  .select-state {
+  }
+  .weather-display {
+  }
+  .temperature-heading {
+  }
+  .humidity-heading {
+  }
+  .pressure-heading {
+  }
+  .vl {
+  }
+
+  .temperatureText {
+  }
+  .humidityText {
+  }
+  .pressureTexts {
+  }
+}

@@ -1,0 +1,112 @@
+.add-users-bgContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebf0f4;
+  display: flex;
+  padding: 10px;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+}
+
+.input-container {
+  height: 30px;
+  width: 481px;
+  left: 928px;
+  top: 302px;
+  border-radius: 10px;
+  background-color: #ededed;
+}
+
+.emailErrMsg {
+  color: #ffa1a1;
+  font-family: Roboto;
+  align-self: flex-start;
+  margin-left: 305px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.phoneErrMsg {
+  color: #ffa1a1;
+  font-family: Roboto;
+  align-self: flex-start;
+  margin-left: 305px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.label {
+  color: #808080;
+  font-family: Roboto;
+  margin-right: 10px;
+  align-self: flex-start;
+  width: 75px;
+}
+.Input {
+  outline: none;
+  background-color: transparent;
+  border-style: none;
+}
+.dateInput {
+  outline: none;
+  background-color: transparent;
+  border-style: none;
+  width: 480px;
+  outline: none;
+  background-color: #ededed;
+}
+.stateInput {
+  outline: none;
+  background-color: transparent;
+  border-style: none;
+  width: 480px;
+  outline: none;
+  background-color: #ededed;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitButton {
+  font-family: Roboto;
+  align-self: flex-start;
+  margin-left: 305px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: #a1e0ff;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+  width: 481px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+  }
+  .form-heading {
+  }
+  .add-users-bgcontainer {
+  }
+  .labelLaptop {
+  }
+  .inputLaptop {
+  }
+}

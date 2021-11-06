@@ -1,0 +1,44 @@
+.header-container {
+  background-color: #ffffff;
+
+  width: 100%;
+
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.profile {
+  display: flex;
+}
+
+.time-and-date {
+  height: 28px;
+  width: 231px;
+  left: 421px;
+  top: 84px;
+}
+.profile-icon {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+.user-profile-name {
+  height: 21px;
+  width: 120px;
+  left: 1658px;
+  top: 87px;
+  border-radius: nullpx;
+}
+@media screen and (max-width: 768px) {
+  .header-container {
+  }
+  .profile-icon {
+  }
+  .user-profile-name {
+  }
+}
